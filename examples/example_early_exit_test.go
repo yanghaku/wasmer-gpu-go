@@ -17,7 +17,7 @@ package wasmer
 
 import (
 	"fmt"
-	"github.com/wasmerio/wasmer-go/wasmer"
+	"github.com/yanghaku/wasmer-gpu-go/wasmer"
 )
 
 type exitCode struct {

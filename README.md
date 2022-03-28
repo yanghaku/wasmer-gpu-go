@@ -1,3 +1,28 @@
+> This is a fork repo for wasmer-go and we add the gpu support for wasmer. because the git repo too big to store binary, so we re-init this repo.
+
+> The wasmer which can support gpu: https://github.com/yanghaku/wasmer-gpu
+
+You can run example/cuda to test
+```shell
+# bash command
+cd examples/cuda
+go run run_cuda.go
+```
+
+You can also use "github.com/yanghaku/wasmer-gpu-go" as a go pkg
+```go
+import (
+"github.com/yanghaku/wasmer-gpu-go"
+)
+```
+
+The library only support x86_64-unknown-linux-gnu(with cuda 11.5) and aarch64-unknown-linux-gnu(with cuda-10.2.89 in nano) right now.
+
+
+<hr/>
+The origin repo is https://github.com/wasmerio/wasmer-go
+<hr/>
+
 <div align="center">
   <a href="https://wasmer.io" target="_blank" rel="noopener noreferrer">
     <img width="300" src="https://raw.githubusercontent.com/wasmerio/wasmer/master/assets/logo.png" alt="Wasmer logo">

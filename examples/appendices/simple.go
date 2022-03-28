@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	wasmer "github.com/wasmerio/wasmer-go/wasmer"
+	"github.com/yanghaku/wasmer-gpu-go/wasmer"
 	"io/ioutil"
 )
 
